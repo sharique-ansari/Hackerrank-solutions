@@ -1,0 +1,14 @@
+def symmdifference(a, b):
+    s = a.union(b).difference(a.intersection(b))
+    s=list(map(int,s))
+    s=sorted(s)
+    for i in s:
+        print(i)
+
+
+if __name__ == '__main__':
+    m = int(input())
+    setA = set(input().split())
+    n = input()
+    setB = set(input().split())
+    symmdifference(setA, setB)
