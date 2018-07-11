@@ -1,4 +1,5 @@
-import itertools, math
+import itertools
+
 
 number = int(input())
 b = sorted(input().split())
